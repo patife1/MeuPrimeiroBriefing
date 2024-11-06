@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Geneva;
+}
+
+.bg_navbar{
+    background-color: #212529;
+}
+
+#maincenter{
+    align-items: center;
+}
+
+#dandadan{
+    background-size: cover;
+    object-fit: cover;
+    height: 35vh;
+    background-position: bottom;
+    opacity: 35%;
+}
+
+#espaço{
+    padding-top: 4px;
+}
+
+#destaques{
+    padding-top: 4px;
+    text-align: center;
+}
+
+#Fonte{
+    padding-top: 25px;
+    padding-left:80px;
+}
+
+#Fonte2{
+    padding-left:80px;
+}

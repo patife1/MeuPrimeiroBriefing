@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <title>Eclipse</title>
+  <link rel="stylesheet" href="./Style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg_navbar" data-bs-theme="dark">
+      <div class="container-fluid" id="barraNavegação">
+        <nav class="navbar-brand">
+          <div class="container-fluid">
+            <a class="navbar-brand bg_navbar" href="#">
+              <img src="./Img/LogoEclipse.png" alt="Logo" width="55" class="d-inline-block align-text-middle">
+              Eclipse
+            </a>
+          </div>
+        </nav>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container-fluid" id="destaques">
+      <h2>Destaques</h2>
+    </div>
+    <div id="carouselExample" class="carousel slide">
+      <div class="container-fluid" id="espaço">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card text-bg-dark">
+              <img src="./Img/dandadan.png" class="card-img" alt="..." id="dandadan">
+              <div class="card-img-overlay">
+                <h5 class="card-title" id="Fonte">Dan da dan</h5>
+                <p class="card-text" id="Fonte2">Essa é a história de Momo Ayase, uma colegial que acredita na existência de espíritos e seu colega de classe que ela apelida de "Okarun", um viciado em alienígenas, OVNIs e fenômenos inexplicáveis!</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card text-bg-dark">
+              <img src="./Img/Ocortiço.jpg" class="card-img" alt="..." id="dandadan">
+              <div class="card-img-overlay">
+                <h5 class="card-title" id="Fonte">O Cortiço</h5>
+                <p class="card-text" id="Fonte2">A história se desenrola em torno de João Romão, um ambicioso comerciante português que, a partir do trabalho duro e da exploração dos moradores do cortiço, consegue acumular riqueza e poder.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card text-bg-dark">
+              <img src="./Img/IT.jpg" class="card-img" alt="..." id="dandadan">
+              <div class="card-img-overlay">
+                <h5 class="card-title" id="Fonte">IT a coisa</h5>
+                <p class="card-text" id="Fonte2">Um grupo de crianças se une para investigar o misterioso desaparecimento de vários jovens em sua cidade. Eles descobrem que o culpado é Pennywise, um palhaço cruel que se alimenta de seus medos e cuja violência teve origem há vários séculos.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
