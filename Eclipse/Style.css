@@ -6,6 +6,7 @@ body{
 
 .bg_navbar{
     background-color: #212529;
+    color: white;
 }
 
 #maincenter{
@@ -27,6 +28,10 @@ body{
 #destaques{
     padding-top: 4px;
     text-align: center;
+    border: 3px;
+    border-style:dashed;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #Fonte{
@@ -36,4 +41,13 @@ body{
 
 #Fonte2{
     padding-left:80px;
+}
+
+#Cards{
+    padding-top: 10px;
+}
+
+#center{
+    display: flex;
+    justify-content: center;
 }
