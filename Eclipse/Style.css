@@ -25,6 +25,10 @@ body{
     padding-top: 4px;
 }
 
+#espaçoplus{
+    padding-top: 15px;
+}
+
 #destaques{
     padding-top: 4px;
     text-align: center;
@@ -50,4 +54,39 @@ body{
 #center{
     display: flex;
     justify-content: center;
+}
+
+#fundo{
+    margin-top: 5vw;
+    border-style:outset ;
+    border-color: grey;
+    min-height: 50vh;
+}
+
+#imagemdetalhes{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#weighttxt{
+    min-width: 20vw;
+}
+
+#middle{
+    display: flex;
+    align-items: center;
+}
+
+#bordacard{
+    border-style:groove;
+    border-color: gray;
+}
+
+#imagemdetalhes img{
+    max-height: 80%;
+    max-width: 80%;
+    min-height: 70%;
+    min-width: 70%;
 }
