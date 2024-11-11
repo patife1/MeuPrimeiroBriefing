@@ -57,17 +57,22 @@ body{
 }
 
 #fundo{
-    margin-top: 5vw;
-    border-style:outset ;
+    margin-top: 1vh;
+    border-style:double ;
     border-color: grey;
     min-height: 50vh;
+    margin-bottom: 2vh;
 }
 
 #imagemdetalhes{
     display: flex;
     justify-content: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    border-style:solid;
+    border-color:gray;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-radius: 2%;
+    border-width: 2px;
 }
 
 #weighttxt{
@@ -84,9 +89,6 @@ body{
     border-color: gray;
 }
 
-#imagemdetalhes img{
-    max-height: 80%;
-    max-width: 80%;
-    min-height: 70%;
-    min-width: 70%;
+#bordacard img{
+    max-height: 100%;
 }
