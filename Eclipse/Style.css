@@ -1,0 +1,113 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Geneva;
+}
+
+.bg_navbar{
+    background-color: #212529;
+    color: white;
+}
+
+#maincenter{
+    align-items: center;
+}
+
+#dandadan{
+    background-size: cover;
+    object-fit: cover;
+    height: 35vh;
+    background-position: bottom;
+    opacity: 35%;
+}
+
+#espaço{
+    padding-top: 15px;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+#espaçocarrosel{
+    padding: auto;
+}
+
+#espaçoplus{
+    padding-top: 15px;
+}
+
+#destaques{
+    padding-top: 4px;
+    text-align: center;
+    border: 3px;
+    border-style:dashed;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#Fonte{
+    padding-top: 25px;
+    padding-left:80px;
+}
+
+#Fonte2{
+    padding-left:80px;
+}
+
+#Cards{
+    padding-top: 10px;
+}
+
+#center{
+    display: flex;
+    justify-content: center;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+#fundo{
+    margin-top: 1vh;
+    border-style:double ;
+    border-color: grey;
+    min-height: 50vh;
+    margin-bottom: 2vh;
+}
+
+#imagemdetalhes{
+    display: flex;
+    justify-content: center;
+    border-style:solid;
+    border-color:gray;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-radius: 2%;
+    border-width: 2px;
+}
+
+#weighttxt{
+    min-width: 1vw;
+}
+
+#middle{
+    display: flex;
+    align-items: center;
+}
+
+#bordacard{
+    border-style:groove;
+    border-color: gray;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#bordacard img{
+    max-height: 100%;
+}
+
+#bordacard:hover{
+    transform:scale(102%);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+#rodape{
+    padding-top: 25px;
+}
