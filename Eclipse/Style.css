@@ -22,7 +22,13 @@ body{
 }
 
 #espaço{
-    padding-top: 4px;
+    padding-top: 15px;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+#espaçocarrosel{
+    padding: auto;
 }
 
 #espaçoplus{
@@ -54,6 +60,8 @@ body{
 #center{
     display: flex;
     justify-content: center;
+    padding-left: 0%;
+    padding-right: 0%;
 }
 
 #fundo{
@@ -87,8 +95,19 @@ body{
 #bordacard{
     border-style:groove;
     border-color: gray;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 #bordacard img{
     max-height: 100%;
+}
+
+#bordacard:hover{
+    transform:scale(102%);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+#rodape{
+    padding-top: 25px;
 }
